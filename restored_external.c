@@ -29,7 +29,7 @@
 #include <CoreFoundation/CoreFoundation.h>
 #include <IOKit/IOKitLib.h>
 #include <IOKit/IOTypes.h>
-#include "IOUSBDeviceControllerLib.h"
+#include <IOKit/IOUSBDeviceControllerLib.h>
 
 IOUSBDeviceDescriptionRef IOUSBDeviceDescriptionCreateWithType(CFAllocatorRef, CFStringRef);
 
